@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Voxel — Mini Minecraft</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="crosshair">+</div>
+  <div id="hud">
+    <div>XYZ: <span id="coords">0, 0, 0</span></div>
+    <div>Block: <span id="selblock">1</span> &middot; 1 grass &middot; 2 dirt &middot; 3 stone</div>
+  </div>
+  <div id="overlay">
+    <h1>VOXEL</h1>
+    <p>Click to play</p>
+    <p class="small">
+      WASD move &middot; Space jump &middot; Shift sprint<br>
+      Mouse look &middot; Left-click mine &middot; Right-click place<br>
+      1 / 2 / 3 select block &middot; Esc to pause<br>
+      Mobile: drag left side to move, right side to look, tap to mine
+    </p>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
